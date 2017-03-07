@@ -1,0 +1,84 @@
+body {
+	font-family: 'Gloria Hallelujah', cursive;
+	background-image: url("/img/playground.jpg");
+	background-size: 100%;
+}
+
+.title {
+	text-align: center;
+	font-size: 75px;
+	color: #363638;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	font-weight: bold;
+	padding-left: 100px;
+}
+
+.counter {
+	font-size: 50px;
+	color: #363638;
+	text-align: right;
+	padding-top: 15px;
+}
+
+.redbox {
+	width: 200px;
+	height: 200px;
+	border-radius: 5px 75px 5px 0px;
+	border: 3px solid #363638;
+	background-color: #C16C64;
+	margin: 3px;
+}
+
+.yellowbox {
+	width: 200px;
+	height: 200px;
+	border-radius: 75px 5px 0px 5px;
+	border: 3px solid #363638;
+	background-color: #D8C970;
+	margin: 3px;
+}
+
+.bluebox {
+	width: 200px;
+	height: 200px;
+	border-radius: 0px 5px 75px 5px;
+	border: 3px solid #363638;
+	background-color: #6884C1;
+	margin: 3px;
+}
+
+.greenbox {
+	width: 200px;
+	height: 200px;
+	border-radius: 5px 0px 5px 75px;
+	border: 3px solid #363638;
+	background-color: #5F9E5B;
+	margin: 3px;
+}
+
+.startButton {
+	height: 130px;
+	width: 130px;
+	background-color: #363638;
+	border-radius: 100%;
+	border-left: 4px solid #6884C1;
+	border-right: 4px solid #D8C970;
+	border-top: 4px solid #5F9E5B;
+	border-bottom: 4px solid #C16C64;
+	color: white;
+	position: absolute;
+	left: 48%;
+	top: 48%;
+	text-align: center;
+	padding-top: 32px;
+	font-size: 35px;
+}
+
+.rotate {
+	transform:rotate(-45deg);
+}
+
+.cursor {
+	cursor:pointer;
+}

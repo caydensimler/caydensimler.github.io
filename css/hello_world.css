@@ -1,0 +1,45 @@
+h1,h2,h3,h4,h5,h6 {
+	color: #E6E9EC;
+	text-decoration: underline; 
+}
+
+body {
+	background-image: url("/img/stars.gif");
+	font-size: 35px;
+	color: #E6E9EC;
+	font-family: 'Caveat Brush', cursive; 
+}
+
+th, tr {
+	color: #E6E9EC;
+	font-size: 25px; 
+}
+
+ol {
+	list-style: georgian inside;
+}
+
+
+/*link modifiers*/
+
+a:link{
+	color: #E6E9EC;
+	font-size: 25px;
+}
+
+a:visited {
+	color: #E6E9EC;
+}
+
+a:hover {
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+

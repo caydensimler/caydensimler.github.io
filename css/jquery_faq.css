@@ -1,0 +1,26 @@
+.headerOne {
+	color: green;
+	font-weight: bold;
+	text-align: center;
+	font-size: 100px;
+}
+
+.question {
+	font-size: 50px;
+}
+
+#answer {
+	font-size:30px;
+}
+
+.invisible {
+	display: none;
+}
+
+.nationalPark {
+	font-size:50px;
+}
+
+.nationalParkBullets {
+	font-size: 30px;
+}

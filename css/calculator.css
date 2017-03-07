@@ -1,0 +1,261 @@
+body {
+	font-family: 'Lobster', cursive;
+}
+
+.calculatorBox1 {
+	background-image:url("/img/raining.gif");
+	border-radius: 30px;
+	border: 3px solid gray;
+	background-repeat: no-repeat;
+	background-size: 1200px;
+}
+
+.bodyOne {
+	background-color: #9ABF8D;
+}
+
+.calculatorBoxButton1 {
+	background-image:url("/img/raining.gif");
+	border-radius: 30px;
+	border: 2px solid gray;
+	background-repeat: no-repeat;
+	height: 300px;
+	background-position: bottom;
+}
+
+.calculatorBox2 {
+	background-image:url("/img/shaq.gif");
+	border-radius: 30px;
+	border: 3px solid gray;
+	background-repeat: no-repeat;
+	background-size: 1000px;
+}
+
+.bodyTwo {
+	background-color: #A86B4A;
+}
+
+.calculatorBoxButton2 {
+	background-image:url("/img/shaq.gif");
+	border-radius: 30px;
+	border: 2px solid gray;
+	background-repeat: no-repeat;
+	height: 300px;
+	background-position: top left;
+}
+
+.calculatorBox3 {
+	background-image:url("/img/raining_pizza.gif");
+	border-radius: 30px;
+	border: 3px solid gray;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 1200px;
+}
+
+.bodyThree {
+	background-color: #A275C6;
+}
+
+.calculatorBoxButton3 {
+	background-image:url("/img/raining_pizza.gif");
+	border-radius: 30px;
+	border: 2px solid gray;
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: 600px;
+	background-position: center left;
+}
+
+.calculatorBox4 {
+	background-image:url("/img/space.jpg");
+	border-radius: 30px;
+	border: 3px solid gray;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1200px;
+}
+
+.bodyFour {
+	background-color: #0F102B;
+}
+
+.calculatorBoxButton4 {
+	background-image:url("/img/space.jpg");
+	border-radius: 30px;
+	border: 2px solid gray;
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: 600px;
+	background-position: center left;
+}
+
+.calculatorBox5 {
+	background-image:url("/img/beach.jpg");
+	border-radius: 30px;
+	border: 3px solid gray;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1200px;
+}
+
+.bodyFive {
+	background-color: #65B2ED;
+}
+
+.calculatorBoxButton5 {
+	background-image:url("/img/beach.jpg");
+	border-radius: 30px;
+	border: 2px solid gray;
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: 600px;
+	background-position: center;
+}
+
+.calculatorBox6 {
+	background-image:url("/img/storm.jpg");
+	border-radius: 30px;
+	border: 3px solid gray;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1200px;
+}
+
+.bodySix {
+	background-color: #94B9BA;
+}
+
+.calculatorBoxButton6 {
+	background-image:url("/img/storm.jpg");
+	border-radius: 30px;
+	border: 2px solid gray;
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: 600px;
+	background-position: center;
+}
+
+
+
+.buttonSizeMods {
+	background-color: #212121;
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+
+.loremInvisible {
+	font-size: 150%;
+}
+
+.loremInvisible2 {
+	font-size: 128%;
+}
+
+.buttonSizeNumbers {
+	background-color: #212121;
+	color: #fff;
+	width: 75px;
+	height: 75px;
+	border-radius: 100%;
+}
+
+.buttonTextNegative {
+	position: relative;
+	top: -7px;
+	font-size: 110%;	
+}
+
+.buttonTextExponent {
+	position: relative;
+	font-size: 75%;	
+	top: -10px;
+}
+
+.buttonTextSquare {
+	position: relative;
+	top: -15px;
+	font-size: 80%;
+}
+
+.buttonTextEquals {
+	position: relative;
+	top: -17px;
+}
+
+.buttonTextDivide {
+	position: relative;
+	top: -16px;
+}
+
+.buttonTextMultiply {
+	position: relative;
+	top: -15px;
+	font-size: 80%;
+}
+
+.buttonTextSubtract {
+	position: relative;
+	top: -26px;
+	font-size: 140%;
+}
+
+.buttonTextAdd {
+	position: relative;
+	top: -19px;
+	font-size: 120%;
+}
+
+.buttonTextValue {
+	position: relative;
+	font-size: 140%;
+	top: -9px;
+}
+
+
+.buttonTextDecimal {
+	position: relative;
+	font-size: 150%;
+	top: -25px;
+	left: 2px;
+}
+
+.buttonTextClear {
+	position: relative;
+	top: -19px;
+}
+
+button {
+    outline: none;
+}
+
+
+textarea {
+	background-color : #212121;
+	position: relative;
+	color: #fff;
+	font-size: 250%;
+	border: 2px solid gray;
+	border-radius: 10px;
+	outline: none;
+	width: 100%;
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

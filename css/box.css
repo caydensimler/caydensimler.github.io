@@ -1,0 +1,71 @@
+.arrow {
+	position: fixed;
+	clear: top;
+
+}
+
+.box {	
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+	padding: 10px 5px;
+	position: relative;
+}
+
+#red {	
+	background-color: red;
+	float: left;
+	top: 25px;
+}
+
+#orange {
+	background-color: orange;
+	float: left;
+	top: 25px;
+	left: 50px;
+}
+
+#yellow {
+	background-color: yellow;
+	float: left;
+	top: 25px;
+	left: 100px;
+}
+
+#green {
+	background-color: green;
+	float: left;
+	clear: left;
+	top: 75px;
+}
+
+#blue {
+	background-color: blue;
+	float: left;
+	top: 75px;
+	left: 50px;
+}
+
+#violet {
+	background-color: violet;
+	float: left;
+	top: 75px;
+	left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
