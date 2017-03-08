@@ -1,7 +1,7 @@
 /*Body Settings*/
 
 body {
-	font-family: 'Slabo 27px', serif;
+	font-family: 'Exo', sans-serif;
 	background-color: #212121;
 }
 
@@ -71,6 +71,19 @@ body {
 	color: #212121;
 }
 
+hr {
+	border: 1.5px solid #0070A0;
+}
+
+.textRight {
+	text-align: right;
+}
+
+.topToBottomText {
+	padding-top: 3%;
+	color: #F5F1ED;
+}
+
 
 
 /*Navigation Bar*/
@@ -95,9 +108,6 @@ body {
 	background-color: #0070A0;
 }
 
-.navbarPortfolio {
-	font-size: 200%;
-}
 
 /*About Me*/
 
@@ -125,13 +135,10 @@ body {
 	text-align: center;
 	font-size: 150%;
 	padding-top: 1%;
+	margin-bottom: 5%;
+	margin-top: 3%;
+	color: #F5F1ED;
 }
-
-.invisibleTextPadding {
-	font-size: 20%;
-}
-
-
 
 
 /*Resume*/
@@ -194,12 +201,12 @@ body {
 /*Link Modifiers*/
 
 a:link {
-	color: #EFCA08;
+	color: #F5F1ED;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #EFCA08;
+	color: #F5F1ED;
 	font-size: 160%;
 	text-decoration: none;
 }
@@ -210,12 +217,22 @@ a:active {
 }
 
 a:visited {
-	color: #EFCA08;
+	color: #F5F1ED;
 	text-decoration: none;
 }
 
 
+@media (max-width: 992px){
+	body > div:nth-child(4) > div.col-xs-offset-1.col-xs-1.textRight.topToBottomText{
+		margin-left: 1px;
+	}
+}
 
+@media (max-width: 992px){
+	body > div:nth-child(5) > div.col-xs-offset-1.col-xs-1.textRight.topToBottomText{
+		margin-left: 1px;
+	}
+}
 
 
 

@@ -11,7 +11,7 @@
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/welcome.css">
-	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 
 </head>
 
@@ -64,7 +64,7 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-						<li><a href="https://caydensimler.github.io" class="navigationbar-link" id="twhite">Welcome</a></li>
+						<li><a href="https://caydensimler.github.io" class="navigationbar-link" id="twhite">Home</a></li>
 						<li><a href="resume.html" class="navigationbar-link" id="twhite">Resume</a></li> 
 						<li><a href="portfolio.html" class="navigationbar-link" id="tblack">Portfolio</a></li> 
 						<li><a href="https://github.com/caydensimler" class="navigationbar-link" id="twhite" target="_blank">GitHub</a></li> 
@@ -74,60 +74,84 @@
 		</nav>
 
 <!-- Invisible Text Seperator -->
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-xs-12 invisible">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error porro id animi corrupti nisi corporis soluta, voluptatibus, ratione minima ea nulla sequi! Dolorem cupiditate voluptate sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit harum animi repellat accusantium culpa placeat, accusamus similique quas, eveniet. Necessitatibus quae adipisci eos harum enim rerum pariatur modi quasi, delectus!</p>
-			</div>
-		</div>
+	<div class="col-xs-12 invisible">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error porro id animi corrupti nisi corporis soluta, voluptatibus, ratione minima ea nulla sequi! Dolorem cupiditate voluptate sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit harum animi repellat accusantium culpa placeat, accusamus similique quas, eveniet. Necessitatibus quae adipisci eos harum enim rerum pariatur modi quasi, delectus!</p>
 	</div>
 
 <!-- Introduction of Portfolio Page-->
 	<div class="col-xs-12 introText" id="twhite">
 		<p>Welcome to my personal portfolio page. Below are all of my past projects.</p> 
-		<p>The primary languages used include: HTML, CSS, Javascript, jQuery, PHP, MySQL, and Laravel.</p>
 	</div>
 
-<!-- Invisible Text Seperator -->
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-xs-12 invisible">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error porro id animi corrupti nisi corporis soluta, voluptatibus, ratione minima ea nulla sequi!</p>
-			</div>
+	<div class="row">
+
+		<!-- Calculator -->
+		<div class="col-xs-1 textRight topToBottomText">
+			C<br>A<br>L<br>C<br>U<br>L<br>A<br>T<br>O<br>R
 		</div>
-	</div>
 
-<!-- Calculator -->
+		<div class="col-xs-10 col-md-4 projectBox">
+			<a href="calculator.html" target="_blanK"><img src="/img/calculator.png" width="100%"></a>
+			<hr>
+			Languages Used:
+			<p>HTML | CSS | Javascript</p>
+			<hr>
+			Project Task:
+			<p>Create a functioning calculator using a combination of HTML, CSS, and Javascript for looks, and Javascript for functionality. The calculator had to include working buttons for addition, subtraction, multiplication, and division.</p>
+		</div>
 
-	<div class="col-xs-1 col-md-1"></div>
-
-	<div class="col-xs-10 col-md-4 projectBox" id="twhite">
-	<a href="calculator.html" target="_blanK"><img src="/img/calculator.png" width="100%"></a>
-	<div class="col-xs-12 invisibleTextPadding invisible">
-		<p>Lorem</p>
-	</div>
-
-	<p>Languages Used:</p>
-	<p>HTML | CSS | Javascript</p>
-	</div>
-
-	<div class="col-xs-1"></div>
-
-<!-- Simple Simon -->
 	
-	<div class="col-xs-1"></div>
+		<!-- Simple Simon -->
+		<div class="col-xs-offset-1 col-xs-1 textRight topToBottomText">
+			S<br>I<br>M<br>P<br>L<br>E<br><br>S<br>I<br>M<br>O<br>N
+		</div>
 
-	<div class="col-xs-10 col-md-4 projectBox" id="twhite">
-	<a href="simple-simon.html" target="_blanK"><img src="/img/simple-simon.png" width="100%"></a>
-	<div class="col-xs-12 invisibleTextPadding invisible">
-		<p>Lorem</p>
+		<div class="col-xs-10 col-md-4 projectBox">
+			<a href="simple-simon.html" target="_blanK"><img src="/img/simple-simon.png" width="100%"></a>
+			<hr>
+			Languages Used:
+			<p>HTML | CSS | Javascript | jQuery</p>
+			<hr>
+			Project Task:
+			<p>Duplicate the old school game Simple Simon using HTML, CSS, and Javascript for looks, as well as a mix of jQuery / Javascript for functionality. The game was required to include a round counter, a start button, and a unique color order each game.</p>
+		</div>
+
 	</div>
 
-	<p>Languages Used:</p>
-	<p>HTML | CSS | Javascript | jQuery</p>
-	</div>
+	<div class="row">
 
-	<div class="col-xs-1 col-md-1"></div>
+		<!-- Weather Map -->
+		<div class="col-xs-1 textRight topToBottomText clearfix">
+			W<br>E<br>A<br>T<br>H<br>E<br>R<br><br>M<br>A<br>P
+		</div>
+
+		<div class="col-xs-10 col-md-4 projectBox">
+			<a href="weather_map.html" target="_blanK"><img src="/img/weather-map.png" width="100%"></a>
+			<hr>
+			Languages Used:
+			<p>HTML | CSS | Javascript | jQuery</p>
+			<hr>
+			Project Task:
+			<p>A web-application that pulls from the Open Weather Maps API in order to forecast weather for a designated area. Also required is implimentation of the Google Maps API to create a draggable marker to obtain a seven-day weather forecast.</p>
+		</div>
+
+
+		<!-- Simple Simon -->
+		<div class="col-xs-offset-1 col-xs-1 textRight topToBottomText">
+			C<br>O<br>M<br>I<br>N<br>G<br><br>S<br>O<br>O<br>N
+		</div>
+
+		<div class="col-xs-10 col-md-4 projectBox">
+			<a href="simple-simon.html" target="_blanK"><img src="/img/space.png" width="100%"></a>
+			<hr>
+			Languages Used:
+			<p>HTML | CSS | Javascript | jQuery</p>
+			<hr>
+			Project Task:
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident iure porro praesentium dignissimos ratione laboriosam nemo repellat in, asperiores illo voluptates, officiis veritatis, magnam necessitatibus deleniti illum unde quod pariatur.</p>
+		</div>
+
+	</div>
 
 
 
