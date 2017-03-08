@@ -104,8 +104,9 @@ hr {
 	margin: 15px;
 }
 
-.navbarBackgroundColor {
+.navbarProperties {
 	background-color: #0070A0;
+	color: #F5F1ED;
 }
 
 
