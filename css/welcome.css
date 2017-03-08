@@ -136,7 +136,7 @@ hr {
 	font-size: 150%;
 	padding-top: 1%;
 	margin-bottom: 5%;
-	margin-top: 3%;
+	margin-top: 2%;
 	color: #F5F1ED;
 }
 
@@ -176,6 +176,8 @@ hr {
 .introText {
 	font-size: 250%;
 	text-align: center;
+	color: #F5F1ED;
+	padding-top: 4%;
 }
 
 
@@ -223,13 +225,13 @@ a:visited {
 
 
 @media (max-width: 992px){
-	body > div:nth-child(4) > div.col-xs-offset-1.col-xs-1.textRight.topToBottomText{
+	body > div:nth-child(3) > div.col-xs-offset-1.col-xs-1.textRight.topToBottomText{
 		margin-left: 1px;
 	}
 }
 
 @media (max-width: 992px){
-	body > div:nth-child(5) > div.col-xs-offset-1.col-xs-1.textRight.topToBottomText{
+	body > div:nth-child(4) > div.col-xs-offset-1.col-xs-1.textRight.topToBottomText{
 		margin-left: 1px;
 	}
 }
