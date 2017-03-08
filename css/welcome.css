@@ -85,7 +85,6 @@ hr {
 }
 
 
-
 /*Navigation Bar*/
 
 .navigationbar-link {
@@ -128,6 +127,29 @@ hr {
 	text-align: center;	
 }
 
+.homeNameText {
+	color: #F5F1ED;
+	font-size: 400%;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.homeNameDescription {
+	color: #F5F1ED;
+	font-size: 150%;
+	text-align: center;
+}
+
+.introText {
+	font-size: 250%;
+	text-align: center;
+	color: #F5F1ED;
+	padding-top: 70px;
+}
+
+.descriptionBorder {
+	border: 2px solid #0070A0;
+}
 
 /*Project Box*/
 
@@ -174,12 +196,7 @@ hr {
 	text-align: center;
 }
 
-.introText {
-	font-size: 250%;
-	text-align: center;
-	color: #F5F1ED;
-	padding-top: 70px;
-}
+
 
 
 /*Margin Modifiers*/
