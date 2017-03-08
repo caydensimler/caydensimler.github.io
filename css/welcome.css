@@ -118,23 +118,20 @@ body {
 }
 
 
-/*Current Project*/
+/*Project Box*/
 
-.currentproject {
-	background-color: #212121;
-	opacity: .95;
-	color: #6DD6D2;
-	font-size: 250%;
+.projectBox {
+	border: 2px solid #0070A0;
 	text-align: center;
+	font-size: 150%;
+	padding-top: 1%;
 }
 
-.currentprojectcontent {
-	background-color: #212121;
-	opacity: .95;
-	color: #6DD6D2;
-	font-size: 200%;
-	text-align: center;
+.invisibleTextPadding {
+	font-size: 20%;
 }
+
+
 
 
 /*Resume*/
@@ -190,6 +187,8 @@ body {
 .invisibletext1 {
 	margin-top: 100px;
 }
+
+
 
 
 /*Link Modifiers*/
