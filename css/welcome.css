@@ -1,10 +1,8 @@
 /*Body Settings*/
 
 body {
-	font-family: 'Sansita', sans-serif;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: right;
+	font-family: 'Slabo 27px', serif;
+	background-color: #212121;
 }
 
 /*Background Settings*/
@@ -30,6 +28,11 @@ body {
 	margin-top: -40px;
 }
 
+.centerTextNavBar {
+	text-align: center;
+	font-weight: bold;
+}
+
 /*Text Colors Used*/
 
 #twhite {
@@ -45,7 +48,7 @@ body {
 }
 
 #tblue {
-	color: #8DD6D3;
+	color: #3A8EB2;
 }
 
 #tred {
@@ -72,16 +75,9 @@ body {
 
 /*Navigation Bar*/
 
-.navigationbar-portfolio {
+.navigationbar-link {
 	font-size: 150%;
-}
-
-.navigationbar-resume {
-	font-size: 150%;
-}
-
-.navigationbar-welcome {
-	font-size: 150%;
+	text-align: center;
 }
 
 .navigationbar-contact {
@@ -95,16 +91,13 @@ body {
 	margin: 15px;
 }
 
-.twitter-logo {
-	width: 22px;
-	height: 22px;
+.navbarBackgroundColor {
+	background-color: #0070A0;
 }
 
-.linkedin-logo {
-	width: 22px;
-	height: 22px;
+.navbarPortfolio {
+	font-size: 200%;
 }
-
 
 /*About Me*/
 
