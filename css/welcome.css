@@ -102,22 +102,6 @@ hr {
 
 /*About Me*/
 
-.aboutme {
-	background-color: #383838;
-	opacity: .95;
-	color: #6DD6D2;
-	font-size: 250%;
-	text-align: center;
-}
-
-.aboutmecontent {
-	background-color: #383838;
-	opacity: .95;
-	color: #6DD6D2;
-	font-size: 200%;
-	text-align: center;	
-}
-
 .homeNameText {
 	color: #F5F1ED;
 	font-size: 4.5vw;
@@ -152,6 +136,23 @@ hr {
 	font-size: 1.5vw;
 	padding: 4%;
 	cursor: pointer;
+}
+
+.resumeButton {
+	color: #F5F1ED;
+	border: 1px solid #0070A0;
+	margin: 15px;
+	text-align: center;
+	font-size: 1.5vw;
+	padding: 4%;
+	cursor: pointer;
+}
+
+.resumeBody {
+	border: 1px solid #0070A0;
+	color: #F5F1ED;
+	font-size: 1.7vw;
+	margin-top: 1.5%;
 }
 
 .homepageButtonHover {
@@ -191,7 +192,7 @@ hr {
 	padding-bottom: 3%;
 }
 
-i {
+i.fontAwesomeIcons {
 	font-size: 2vw;
 	padding-right: 3%;
 	padding-top: 3%;
@@ -224,24 +225,23 @@ i {
 
 /*Resume*/
 
-.resume {
-	background-color: #383838;
-	opacity: .95;
-	color: #6DD6D2;
-	font-size: 200%;
-	text-align: center;
+.resumeHeader {
+	color: #F5F1ED;
+	font-size: 4.5vw;
+	padding-top: 70px;
+	text-align: right;
 }
 
-.resumecontent {
-	background-color: #383838;
-	opacity: .95;
-	top: 50px;
-	color: #6DD6D2;
-	font-size: 200%;
-	text-align: center;
-	padding: 10px;
-	margin-top: 30px;
+.resumeHeaderContactInfo {
+	color: #F5F1ED;
+	font-size: 1.5vw;
+	padding-top: 75px;
 }
+
+.resumeButtonPadding {
+	margin-top: 2%;
+}
+
 
 
 /*Portfolio*/
