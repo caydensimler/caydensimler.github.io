@@ -5,7 +5,6 @@ $("document").ready(function(){
 
 	function hideAll(){
 		$(".languages").hide();
-		$(".aboutMe").hide();
 		$(".contact").hide();
 		$(".faq").hide();
 	}
@@ -44,18 +43,31 @@ $("document").ready(function(){
 
 	$(".languagesButton").click(function(){
 		$(".languages").fadeToggle(800);
+		$(".aboutMe").hide();
+		$(".contact").hide();
+		$(".faq").hide();
 	})
 
 	$(".aboutMeButton").click(function(){
 		$(".aboutMe").fadeToggle(800);
+		$(".contact").hide();
+		$(".faq").hide();
+		$(".languages").hide();
+
 	})
 
 	$(".contactButton").click(function(){
 		$(".contact").fadeToggle(800);
+		$(".aboutMe").hide();
+		$(".languages").hide();
+		$(".faq").hide();
 	})
 
 	$(".faqButton").click(function(){
 		$(".faq").fadeToggle(800);
+		$(".languages").hide();
+		$(".aboutMe").hide();
+		$(".contact").hide();
 	})
 
 });
