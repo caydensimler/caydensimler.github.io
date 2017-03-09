@@ -229,6 +229,7 @@ i.fontAwesomeIcons {
 	color: #F5F1ED;
 	font-size: 4.5vw;
 	padding-top: 70px;
+	padding-left: 0px;
 	text-align: right;
 }
 
@@ -236,6 +237,7 @@ i.fontAwesomeIcons {
 	color: #F5F1ED;
 	font-size: 1.5vw;
 	padding-top: 75px;
+	padding-right: 0px;
 }
 
 .resumeButtonPadding {
