@@ -143,17 +143,13 @@ hr {
 
 .homeNameDescription {
 	color: #F5F1ED;
-	font-size: 2.3vw;
-	text-align: right;
+	font-size: 2vw;
+	text-align: center;
 }
 
-.backgroundHomepage {
-	background-color: #0070A0;
-	opacity: .5;
-}
 
 .introText {
-	font-size: 2.6vw;
+	font-size: 2.8vw;
 	text-align: center;
 	color: #F5F1ED;
 	padding-top: 70px;
