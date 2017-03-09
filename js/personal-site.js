@@ -1,7 +1,7 @@
-"use strict";
 
 $("document").ready(function(){
 
+	"use strict";
 
 	function hideAll(){
 		$(".languages").hide();
