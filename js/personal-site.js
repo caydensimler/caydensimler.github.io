@@ -27,6 +27,21 @@ $("document").ready(function(){
 		});
 	});
 
+	$(".resumeButton").hover(function(){
+		$(this).css({
+			"color": "#383838",
+			"backgroundColor": "#F5F1ED",
+			"fontWeight": "bold"
+		});
+
+		}, function() {
+		$(this).css({
+			"color": "#F5F1ED",
+			"backgroundColor": "#383838",
+			"fontWeight": "normal"
+		});
+	});
+
 	$(".languagesButton").click(function(){
 		$(".languages").fadeToggle(800);
 	})

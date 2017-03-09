@@ -63,7 +63,7 @@ li a.fontAwesomeIconsHeader {
 }
 
 hr {
-	border: 1.5px solid #0070A0;
+	border-color: #0070A0;
 }
 
 .textRight {
@@ -75,7 +75,14 @@ hr {
 	color: #F5F1ED;
 }
 
+.resumeBodyHeader {
+	font-size: 3vw;
+	text-align: center;
+}
 
+i.resumeIcon {
+	color: #0070A0;
+}
 /*Navigation Bar*/
 
 .navigationbar-link {
@@ -131,11 +138,15 @@ hr {
 .homepageButton {
 	color: #F5F1ED;
 	border: 1px solid #0070A0;
-	margin: 15px;
+	margin: 1%;
 	text-align: center;
 	font-size: 1.5vw;
 	padding: 4%;
 	cursor: pointer;
+}
+
+.homepageButtonPadding {
+	padding-top: 3%;
 }
 
 .resumeButton {
