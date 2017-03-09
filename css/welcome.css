@@ -130,18 +130,30 @@ hr {
 .homeNameText {
 	color: #F5F1ED;
 	font-size: 4.5vw;
+	padding-top: 70px;
 	text-align: center;
+}
+
+.homeNameTextTwo {
+	color: #F5F1ED;
+	font-size: 4.5vw;
+	text-align: right;
 	padding-top: 70px;
 }
 
 .homeNameDescription {
 	color: #F5F1ED;
-	font-size: 2vw;
-	text-align: center;
+	font-size: 2.3vw;
+	text-align: right;
+}
+
+.backgroundHomepage {
+	background-color: #0070A0;
+	opacity: .5;
 }
 
 .introText {
-	font-size: 250%;
+	font-size: 2.6vw;
 	text-align: center;
 	color: #F5F1ED;
 	padding-top: 70px;
