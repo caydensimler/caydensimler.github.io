@@ -152,8 +152,33 @@ hr {
 	border: 1px solid #0070A0;
 	margin: 15px;
 	text-align: center;
-	font-size: 1.7vw;
+	font-size: 1.5vw;
 	padding: 4%;
+}
+
+.homepageBody {
+	border: 1px solid #0070A0;
+	color: #F5F1ED;
+	font-size: 2vw;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 4%;
+}
+
+.homepageBodyCenter {
+	text-align: center;
+}
+
+.homepageBodyHeader {
+	font-size: 3.5vw;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+i {
+	font-size: 2vw;
+	padding-right: 3%;
+	padding-top: 3%;
 }
 
 
