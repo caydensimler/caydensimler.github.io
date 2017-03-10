@@ -14,6 +14,9 @@ $("document").ready(function(){
 
 	hideAll()
 
+	///////////////////
+	// Homepage Buttons
+	///////////////////
 	$(".homepageButton").hover(function(){
 		$(this).css({
 			"color": "#383838",
@@ -29,6 +32,9 @@ $("document").ready(function(){
 		});
 	});
 
+	/////////////////
+	// Resume Buttons
+	/////////////////
 	$(".resumeButton").hover(function(){
 		$(this).css({
 			"color": "#383838",
@@ -44,60 +50,90 @@ $("document").ready(function(){
 		});
 	});
 
+	/////////////////
+	// Resume Buttons
+	/////////////////
 	$(".objectiveButton").click(function(){
-		$(".objective").fadeToggle(1200);
-		$(".skills").hide();
-		$(".experience").hide();
-		$(".education").hide();
+		$(".skills").fadeOut(800);
+		$(".experience").fadeOut(800);
+		$(".education").fadeOut(800);
+
+		setTimeout(function(){
+			$(".objective").fadeToggle(800);
+		}, 800);
 	});
 
 	$(".skillsButton").click(function(){
-		$(".skills").fadeToggle(1200);
-		$(".objective").hide();
-		$(".experience").hide();
-		$(".education").hide();
+		$(".objective").fadeOut(800);
+		$(".experience").fadeOut(800);
+		$(".education").fadeOut(800);
+
+		setTimeout(function(){
+			$(".skills").fadeToggle(800);
+		}, 800);
 	});
 
 	$(".educationButton").click(function(){
-		$(".education").fadeToggle(1200);
-		$(".objective").hide();
-		$(".experience").hide();
-		$(".skills").hide();
+		$(".objective").fadeOut(800);
+		$(".experience").fadeOut(800);
+		$(".skills").fadeOut(800);
+
+		setTimeout(function(){
+			$(".education").fadeToggle(800);
+		}, 800);
 	});
 
 	$(".experienceButton").click(function(){
-		$(".experience").fadeToggle(1200);
-		$(".objective").hide();
-		$(".education").hide();
-		$(".skills").hide();
+		$(".objective").fadeOut(800);
+		$(".education").fadeOut(800);
+		$(".skills").fadeOut(800);
+
+		setTimeout(function(){
+			$(".experience").fadeToggle(800);
+		}, 800);
 	})
 
+	///////////////////
+	// Homepage Buttons
+	///////////////////
 	$(".languagesButton").click(function(){
-		$(".languages").fadeToggle(800);
-		$(".aboutMe").hide();
-		$(".contact").hide();
-		$(".faq").hide();
+		$(".aboutMe").fadeOut(800);
+		$(".contact").fadeOut(800);
+		$(".faq").fadeOut(800);
+
+		setTimeout(function(){
+			$(".languages").fadeToggle(800);
+		}, 800);
 	});
 
 	$(".aboutMeButton").click(function(){
-		$(".aboutMe").fadeToggle(800);
-		$(".contact").hide();
-		$(".faq").hide();
-		$(".languages").hide();
+		$(".contact").fadeOut(800);
+		$(".faq").fadeOut(800);
+		$(".languages").fadeOut(800);
+
+		setTimeout(function(){
+			$(".aboutMe").fadeToggle(800);
+		}, 800);
 	});
 
 	$(".contactButton").click(function(){
-		$(".contact").fadeToggle(800);
-		$(".aboutMe").hide();
-		$(".languages").hide();
-		$(".faq").hide();
+		$(".aboutMe").fadeOut(800);
+		$(".languages").fadeOut(800);
+		$(".faq").fadeOut(800);
+
+		setTimeout(function(){
+			$(".contact").fadeToggle(800);
+		}, 800);
 	});
 
 	$(".faqButton").click(function(){
-		$(".faq").fadeToggle(800);
-		$(".languages").hide();
-		$(".aboutMe").hide();
-		$(".contact").hide();
+		$(".languages").fadeOut(800);
+		$(".aboutMe").fadeOut(800);
+		$(".contact").fadeOut(800);
+
+		setTimeout(function(){
+			$(".faq").fadeToggle(800);
+		}, 800);
 	});
 
 });
