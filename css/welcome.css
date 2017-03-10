@@ -3,22 +3,13 @@
 body {
 	font-family: 'Exo', sans-serif;
 	background-color: #383838;
-}
-
-body { padding-top: 70px; }
-@media screen and (max-width: 768px) {
-    body { padding-top: 70px; }
+	padding-top: 70px;
 }
 
 li a.fontAwesomeIconsHeader {
 	font-size: 1.5vw;
 	color: #F5F1ED;
 }
-
-.navbar {
-	position: absolute;
-}
-
 
 .bottomMargin {
 	margin-bottom: 40px;
