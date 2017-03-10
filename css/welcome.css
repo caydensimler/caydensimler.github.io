@@ -84,6 +84,10 @@ hr {
 i.resumeIcon {
 	color: #0070A0;
 }
+
+.pictureBorder {
+	border: 2px solid #0070A0;
+}
 /*Navigation Bar*/
 
 .navigationbar-link {
