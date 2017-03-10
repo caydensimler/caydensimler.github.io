@@ -5,9 +5,18 @@ body {
 	background-color: #383838;
 }
 
+body { padding-top: 70px; }
+@media screen and (max-width: 768px) {
+    body { padding-top: 70px; }
+}
+
 li a.fontAwesomeIconsHeader {
 	font-size: 1.5vw;
 	color: #F5F1ED;
+}
+
+.navbar {
+	position: absolute;
 }
 
 
@@ -117,8 +126,11 @@ i.resumeIcon {
 .homeNameText {
 	color: #F5F1ED;
 	font-size: 4.5vw;
-	padding-top: 70px;
 	text-align: center;
+}
+
+.citySkyline {
+	width: 100%;
 }
 
 .homeNameQuote {
@@ -148,10 +160,12 @@ i.resumeIcon {
 	font-size: 1.5vw;
 	padding: 4%;
 	cursor: pointer;
+	background-color: #383838;
 }
 
 .homepageButtonPadding {
 	padding-top: 3%;
+	padding-bottom: 25%;
 }
 
 .resumeButton {
@@ -169,6 +183,7 @@ i.resumeIcon {
 	color: #F5F1ED;
 	font-size: 1.7vw;
 	padding: 5%;
+	margin-top: 10%;
 }
 
 .homepageButtonHover {
@@ -185,7 +200,7 @@ i.resumeIcon {
 	border: 1px solid #0070A0;
 	color: #F5F1ED;
 	font-size: 2vw;
-	margin-top: 15px;
+	margin-top: -15%;
 	margin-bottom: 15px;
 	padding: 4%;
 }
