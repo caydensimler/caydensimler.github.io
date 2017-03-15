@@ -2,7 +2,7 @@
 
 body {
 	font-family: 'Exo', sans-serif;
-	background-color: #383838;
+	background-color: #668FAF;
 	padding-top: 70px;
 }
 
@@ -31,15 +31,15 @@ li a.fontAwesomeIconsHeader {
 }
 
 #tblack {
-	color: #383838;
+	color: #668FAF;
 }
 
 #tgray {
-	color: #C2C1C2;
+	color: #668FAF;
 }
 
 #tblue {
-	color: #0070A0;
+	color: #383836;
 }
 
 #tred {
@@ -59,11 +59,11 @@ li a.fontAwesomeIconsHeader {
 }
 
 #bgblack {
-	color: #383838;
+	color: #668FAF;
 }
 
 hr {
-	border-color: #0070A0;
+	border-color: #F5F1ED;
 }
 
 .textRight {
@@ -82,11 +82,11 @@ hr {
 }
 
 i.resumeIcon {
-	color: #0070A0;
+	color: #383836;
 }
 
 .pictureBorder {
-	border: 2px solid #0070A0;
+	border: 2px solid #383836;
 }
 /*Navigation Bar*/
 
@@ -98,7 +98,7 @@ i.resumeIcon {
 .navigationbar-contact {
 	font-size: 150%;
 	top: 7px;
-	background-color: #383838;
+	background-color: #668FAF;
 }
 
 .contactform {
@@ -107,7 +107,7 @@ i.resumeIcon {
 }
 
 .navbarProperties {
-	background-color: #0070A0;
+	background-color: #383836;
 	color: #F5F1ED;
 }
 
@@ -145,13 +145,13 @@ i.resumeIcon {
 
 .homepageButton {
 	color: #F5F1ED;
-	border: 1px solid #0070A0;
+	border: 1px solid #F5F1ED;
 	margin: 1%;
 	text-align: center;
 	font-size: 1.5vw;
 	padding: 4%;
 	cursor: pointer;
-	background-color: #383838;
+	background-color: #383836;
 }
 
 .homepageButtonPadding {
@@ -161,25 +161,28 @@ i.resumeIcon {
 
 .resumeButton {
 	color: #F5F1ED;
-	border: 1px solid #0070A0;
+	border: 1px solid #F5F1ED;
 	margin-bottom: 30px;
 	text-align: center;
 	font-size: 1.5vw;
 	padding: 4%;
 	cursor: pointer;
+	background-color: #383836;
+
 }
 
 .resumeBody {
-	border: 1px solid #0070A0;
+	border: 1px solid #F5F1ED;
 	color: #F5F1ED;
 	font-size: 1.7vw;
 	padding: 5%;
+	background-color: #383836;
 }
 
 .homepageButtonHover {
-	color: #383838;
+	color: #668FAF;
 	background-color: #F5F1ED;
-	border: 1px solid #0070A0;
+	border: 1px solid #383836;
 	margin: 15px;
 	text-align: center;
 	font-size: 1.5vw;
@@ -187,12 +190,13 @@ i.resumeIcon {
 }
 
 .homepageBody {
-	border: 1px solid #0070A0;
+	border: 1px solid #F5F1ED;
 	color: #F5F1ED;
 	font-size: 2vw;
 	margin-top: -15%;
 	margin-bottom: 15px;
 	padding: 4%;
+	background-color: #383836;
 }
 
 .homepageBodyCenter {
@@ -227,19 +231,20 @@ i.fontAwesomeIcons {
 }
 
 .descriptionBorder {
-	border: 2px solid #0070A0;
+	border: 2px solid #383836;
 }
 
 /*Project Box*/
 
 .projectBox {
-	border: 2px solid #0070A0;
+	border: 1px solid #F5F1ED;
 	text-align: center;
 	font-size: 1.5vw;
 	padding-top: 1%;
 	margin-bottom: 5%;
 	margin-top: 2%;
 	color: #F5F1ED;
+	background-color: #383836;
 }
 
 
@@ -261,18 +266,6 @@ i.fontAwesomeIcons {
 
 .resumeButtonPadding {
 	margin-top: 4%;
-}
-
-
-
-/*Portfolio*/
-
-.portfolio {
-	background-color: #383838;
-	opacity: .95;
-	color: #6DD6D2;
-	font-size: 200%;
-	text-align: center;
 }
 
 
@@ -326,7 +319,7 @@ a:link.fontAwesomeIcons {
 }
 
 a:hover.fontAwesomeIcons {
-	color: #0070A0;
+	color: #383836;
 	text-decoration: none;
 }
 
