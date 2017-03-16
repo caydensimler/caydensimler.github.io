@@ -1,350 +1,256 @@
 /*Body Settings*/
 
-body {
-	font-family: 'Exo', sans-serif;
-	background-color: #668FAF;
-	padding-top: 70px;
-}
+	body {
+		font-family: 'Exo', sans-serif;
+		background-color: #668FAF;
+		padding-top: 70px;
+		color: #F5F1ED;
+	}
 
-li a.fontAwesomeIconsHeader {
-	font-size: 1.5vw;
-	color: #F5F1ED;
-}
+	li a.fontAwesomeIconsHeader {
+		font-size: 1.5vw;
+		color: #F5F1ED;
+	}
 
-.bottomMargin {
-	margin-bottom: 40px;
-}
+	hr {
+		border-color: #F5F1ED;
+	}
 
-.topMargin {
-	margin-top: -40px;
-}
-
-.centerTextNavBar {
-	text-align: center;
-	font-weight: bold;
-}
-
-/*Text Colors Used*/
-
-#twhite {
-	color: #F5F1ED;
-}
-
-#tblack {
-	color: #668FAF;
-}
-
-#tgray {
-	color: #668FAF;
-}
-
-#tblue {
-	color: #383836;
-}
-
-#tred {
-	color: #AD2F2B;
-}
-
-#tyellow {
-	color: #EFCA08;
-}
-
-#tgreen {
-	color: #049E35;
-}
-
-#tdblue {
-	color: #2C707F;
-}
-
-#bgblack {
-	color: #668FAF;
-}
-
-hr {
-	border-color: #F5F1ED;
-}
-
-.textRight {
-	text-align: right;
-}
-
-.topToBottomText {
-	padding-top: 3%;
-	color: #F5F1ED;
-	font-size: 1vw;
-}
-
-.resumeBodyHeader {
-	font-size: 3vw;
-	text-align: center;
-}
-
-i.resumeIcon {
-	color: #383836;
-}
-
-.pictureBorder {
-	border: 2px solid #383836;
-}
 /*Navigation Bar*/
 
-.navigationbar-link {
-	font-size: 150%;
-	text-align: center;
-}
+	.siteLink {
+		font-size: 150%;
+		text-align: center;
+		color: #F5F1ED;
+	}
 
-.navigationbar-contact {
-	font-size: 150%;
-	top: 7px;
-	background-color: #668FAF;
-}
+	.navbarProperties {
+		background-color: #383836;
+		color: #F5F1ED;
+	}
 
-.contactform {
-	width: 500px;
-	margin: 15px;
-}
+	.centerTextNavBar {
+		text-align: center;
+		font-weight: bold;
+	}
 
-.navbarProperties {
-	background-color: #383836;
-	color: #F5F1ED;
-}
+/*Homepage Info*/
 
+	.homeNameText {
+		color: #F5F1ED;
+		font-size: 4.5vw;
+		text-align: center;
+	}
 
-/*About Me*/
+	.citySkyline {
+		width: 100%;
+	}
 
-.homeNameText {
-	color: #F5F1ED;
-	font-size: 4.5vw;
-	text-align: center;
-}
+	.homeNameDescription {
+		color: #F5F1ED;
+		font-size: 2vw;
+		text-align: center;
+	}
 
-.citySkyline {
-	width: 100%;
-}
+	.homepageBody {
+		border: 1px solid #F5F1ED;
+		color: #F5F1ED;
+		font-size: 2vw;
+		margin-top: -15%;
+		margin-bottom: 15px;
+		padding: 4%;
+		background-color: #383836;
+	}
 
-.homeNameQuote {
-	color: #F5F1ED;
-	font-size: 3vw;
-	text-align: center;
-}
+	.homepageButtonHover {
+		color: #668FAF;
+		background-color: #F5F1ED;
+		border: 1px solid #383836;
+		margin: 15px;
+		text-align: center;
+		font-size: 1.5vw;
+		padding: 4%;
+	}
 
-.homeNameTextTwo {
-	color: #F5F1ED;
-	font-size: 4.5vw;
-	text-align: right;
-	padding-top: 70px;
-}
+	.homepageButton {
+		color: #F5F1ED;
+		border: 1px solid #F5F1ED;
+		margin: 1%;
+		text-align: center;
+		font-size: 1.5vw;
+		padding: 4%;
+		cursor: pointer;
+		background-color: #383836;
+	}
 
-.homeNameDescription {
-	color: #F5F1ED;
-	font-size: 2vw;
-	text-align: center;
-}
+	.homepageButtonPadding {
+		padding-top: 3%;
+		padding-bottom: 18%;
+	}
 
-.homepageButton {
-	color: #F5F1ED;
-	border: 1px solid #F5F1ED;
-	margin: 1%;
-	text-align: center;
-	font-size: 1.5vw;
-	padding: 4%;
-	cursor: pointer;
-	background-color: #383836;
-}
+	.homepageButtonHover {
+		color: #668FAF;
+		background-color: #F5F1ED;
+		border: 1px solid #383836;
+		margin: 15px;
+		text-align: center;
+		font-size: 1.5vw;
+		padding: 4%;
+	}
 
-.homepageButtonPadding {
-	padding-top: 3%;
-	padding-bottom: 18%;
-}
+	.homepageBodyHeader {
+		font-size: 3.5vw;
+		text-align: center;
+		padding-bottom: 3%;
+	}
 
-.resumeButton {
-	color: #F5F1ED;
-	border: 1px solid #F5F1ED;
-	margin-bottom: 30px;
-	text-align: center;
-	font-size: 1.5vw;
-	padding: 4%;
-	cursor: pointer;
-	background-color: #383836;
+	i.fontAwesomeIcons {
+		font-size: 2vw;
+		padding-right: 3%;
+		padding-top: 3%;
+	}
 
-}
+/*Portfolio*/
 
-.resumeBody {
-	border: 1px solid #F5F1ED;
-	color: #F5F1ED;
-	font-size: 1.7vw;
-	padding: 5%;
-	background-color: #383836;
-}
+	.introText {
+		font-size: 2.8vw;
+		text-align: center;
+		color: #F5F1ED;
+	}
+	
+	.projectBox {
+		border: 1px solid #F5F1ED;
+		text-align: center;
+		font-size: 1.5vw;
+		padding-top: 1%;
+		margin-bottom: 5%;
+		margin-top: 2%;
+		color: #F5F1ED;
+		background-color: #383836;
+	}
 
-.homepageButtonHover {
-	color: #668FAF;
-	background-color: #F5F1ED;
-	border: 1px solid #383836;
-	margin: 15px;
-	text-align: center;
-	font-size: 1.5vw;
-	padding: 4%;
-}
+	.pictureBorder {
+		border: 2px solid #383836;
+	}
 
-.homepageBody {
-	border: 1px solid #F5F1ED;
-	color: #F5F1ED;
-	font-size: 2vw;
-	margin-top: -15%;
-	margin-bottom: 15px;
-	padding: 4%;
-	background-color: #383836;
-}
+	.topToBottomText {
+		padding-top: 3%;
+		color: #F5F1ED;
+		font-size: 1vw;
+	}
 
-.homepageBodyCenter {
-	text-align: center;
-}
+	@media (max-width: 992px){
+		body > div:nth-child(3) > div.col-xs-offset-1.col-xs-1.textRight.topToBottomText{
+			margin-left: 1px;
+		}
+	}
 
-.faqQuestion {
-	font-size: 2vw; 
-}
-
-.languagesFAQ {
-	text-align: center;
-}
-
-.homepageBodyHeader {
-	font-size: 3.5vw;
-	text-align: center;
-	padding-bottom: 3%;
-}
-
-i.fontAwesomeIcons {
-	font-size: 2vw;
-	padding-right: 3%;
-	padding-top: 3%;
-}
-
-
-.introText {
-	font-size: 2.8vw;
-	text-align: center;
-	color: #F5F1ED;
-}
-
-.descriptionBorder {
-	border: 2px solid #383836;
-}
-
-/*Project Box*/
-
-.projectBox {
-	border: 1px solid #F5F1ED;
-	text-align: center;
-	font-size: 1.5vw;
-	padding-top: 1%;
-	margin-bottom: 5%;
-	margin-top: 2%;
-	color: #F5F1ED;
-	background-color: #383836;
-}
-
+	@media (max-width: 992px){
+		body > div:nth-child(4) > div.col-xs-offset-1.col-xs-1.textRight.topToBottomText{
+			margin-left: 1px;
+		}
+	}
+	
 
 /*Resume*/
 
-.resumeHeader {
-	color: #F5F1ED;
-	font-size: 4.5vw;
-	padding-left: 0px;
-	text-align: right;
-}
+	i.resumeIcon {
+		color: #383836;
+	}
 
-.resumeHeaderContactInfo {
-	color: #F5F1ED;
-	font-size: 1.5vw;
-	padding-top: 5px;
-	padding-right: 0px;
-}
+	.resumeHeader {
+		color: #F5F1ED;
+		font-size: 4.5vw;
+		padding-left: 0px;
+		text-align: right;
+	}
 
-.resumeButtonPadding {
-	margin-top: 4%;
-}
+	.resumeHeaderContactInfo {
+		color: #F5F1ED;
+		font-size: 1.5vw;
+		padding-top: 5px;
+		padding-right: 0px;
+	}
 
+	.resumeButtonPadding {
+		margin-top: 4%;
+	}
 
+	.resumeBody {
+		border: 1px solid #F5F1ED;
+		color: #F5F1ED;
+		font-size: 1.7vw;
+		padding: 5%;
+		background-color: #383836;
+	}
 
+	.resumeBodyHeader {
+		font-size: 3vw;
+		text-align: center;
+	}
 
-/*Margin Modifiers*/
-
-.margin {
-	margin-bottom: 35px;
-	margin-top: 20px;
-	margin-left: 35px;
-	margin-right: 15px;
-}
-
+	.resumeButton {
+		color: #F5F1ED;
+		border: 1px solid #F5F1ED;
+		margin-bottom: 30px;
+		text-align: center;
+		font-size: 1.5vw;
+		padding: 4%;
+		cursor: pointer;
+		background-color: #383836;
+	}
 
 /*Invisible Text Extensions*/
 
-.invisibletext1 {
-	margin-top: 100px;
-}
-
-
-
+	.invisibletext1 {
+		margin-top: 100px;
+	}
 
 /*Link Modifiers*/
 
-a:link.navigationbar-link {
-	color: #F5F1ED;
-	text-decoration: none;
-}
-
-a:hover.navigationbar-link {
-	color: #F5F1ED;
-	font-size: 160%;
-	text-decoration: none;
-}
-
-a:active.navigationbar-link {
-	color: #F5F1ED;
-	text-decoration: none;
-}
-
-a:visited.navigationbar-link {
-	color: #F5F1ED;
-	text-decoration: none;
-}
-
-a:link.fontAwesomeIcons {
-	color: #F5F1ED;
-	text-decoration: none;
-}
-
-a:hover.fontAwesomeIcons {
-	color: #383836;
-	text-decoration: none;
-}
-
-a:active.fontAwesomeIcons {
-	color: #F5F1ED;
-	text-decoration: none;
-}
-
-a:visited.fontAwesomeIcons {
-	color: #F5F1ED;
-	text-decoration: none;	
-}
-
-
-@media (max-width: 992px){
-	body > div:nth-child(3) > div.col-xs-offset-1.col-xs-1.textRight.topToBottomText{
-		margin-left: 1px;
+	a:link.siteLink {
+		color: #F5F1ED;
+		text-decoration: none;
 	}
-}
 
-@media (max-width: 992px){
-	body > div:nth-child(4) > div.col-xs-offset-1.col-xs-1.textRight.topToBottomText{
-		margin-left: 1px;
+	a:hover.siteLink {
+		color: #F5F1ED;
+		font-size: 160%;
+		text-decoration: none;
 	}
-}
+
+	a:active.siteLink {
+		color: #F5F1ED;
+		text-decoration: none;
+	}
+
+	a:visited.siteLink {
+		color: #F5F1ED;
+		text-decoration: none;
+	}
+
+	a:link.fontAwesomeIcons {
+		color: #F5F1ED;
+		text-decoration: none;
+	}
+
+	a:hover.fontAwesomeIcons {
+		color: #F5F1ED;
+		text-decoration: none;
+	}
+
+	a:active.fontAwesomeIcons {
+		color: #F5F1ED;
+		text-decoration: none;
+	}
+
+	a:visited.fontAwesomeIcons {
+		color: #F5F1ED;
+		text-decoration: none;	
+	}
+
+
+
 
 
 
