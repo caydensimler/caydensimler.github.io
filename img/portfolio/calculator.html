@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Calculator</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/calculator.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+</head>
+<body class="body1" id="pageBody">
+
+	<div class="col-xs-12 invisible">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus nihil assumenda quaerat, sed tempore at rem voluptatibus tenetur dolores omnis, accusamus porro doloribus vitae totam quae, aut minus debitis odio!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquid harum, provident, officiis reiciendis laboriosam, exercitationem ipsa dolore doloremque perferendis minus, alias obcaecati maiores inventore nam suscipit necessitatibus ipsam laudantium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ab impedit, voluptate odit! Nobis, quam, quos? Voluptatem soluta, esse quia quisquam, aperiam nulla ipsum aspernatur dolor, saepe id atque! Illo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non omnis doloribus nobis consequatur, neque cumque veniam tempore adipisci! Modi maxime sunt magni, ut aliquid voluptas, expedita in deleniti facere ratione.</div>
+
+	<div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"></div>
+
+<!-- Calculator 1 -->
+<!-- Container -->
+
+	<div class="calculatorBox1 col-xs-12 col-sm-6 col-md-6 col-lg-4" id="calculatorBox">
+
+		<div class="col-xs-12 invisible loremInvisible">Lorem ipsum dolor</div>
+
+<!-- Input Box -->
+
+
+		<div class="col-xs-12">
+			<form name="numberInput">
+				<textarea rows="1"></textarea>
+			</form>
+		</div>
+
+
+		<div class="col-xs-12 invisible">Lorem</div>
+
+<!-- First Row -->
+
+		<div class="col-xs-3">
+			<button class="buttonSizeMods" value="Reset" onclick="reset(numberInput);">
+				<h2><div class="buttonTextClear">c</div></h2>
+			</button>
+		</div>
+		
+		<div class="col-xs-3">
+			<button class="buttonSizeMods" onclick="square(numberInput);">
+				<h2><div class="buttonTextExponent">x<sup>y</sup></div></h2>
+			</button>
+		</div>
+			
+		<div class="col-xs-3">	
+			<button class="buttonSizeMods" onclick="squareRoot(numberInput);">
+				<h2><div class="buttonTextSquare">&radic;</div></h2>
+			</button>
+		</div>
+		
+		<div class="col-xs-3">	
+			<button class="buttonSizeMods" onclick="equals(numberInput);">
+				<h2><div class="buttonTextEquals">=</div></h2>
+			</button>
+		</div>	
+
+		<div class="col-xs-12 invisible loremInvisible">Lorem</div>
+
+<!-- Second Row -->
+
+		<div class="col-xs-1"></div>
+
+		<div class="col-xs-2">
+			<button class="buttonSizeNumbers">
+				<h2><div class="buttonTextValue">7</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-1"></div>
+
+		<div class="col-xs-2">
+			<button class="buttonSizeNumbers">
+				<h2><div class="buttonTextValue">8</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-1"></div>
+
+		<div class="col-xs-2">
+			<button class="buttonSizeNumbers">
+				<h2><div class="buttonTextValue">9</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-1"></div>
+
+		<div class="col-xs-2">
+			<button class="buttonSizeMods" onclick="division(numberInput)">
+				<h2><div class="buttonTextDivide">&divide;</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-12 invisible loremInvisible">Lorem</div>
+
+<!-- Third Row -->
+
+		<div class="col-xs-2">
+			<button class="buttonSizeNumbers"">
+				<h2><div class="buttonTextValue">4</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-1"></div>
+
+		<div class="col-xs-2">
+			<button class="buttonSizeNumbers"">
+				<h2><div class="buttonTextValue">5</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-1"></div>
+		
+		<div class="col-xs-2">
+			<button class="buttonSizeNumbers"">
+				<h2><div class="buttonTextValue">6</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-1"></div>
+
+		<div class="col-xs-2">
+			<button class="buttonSizeMods" onclick="multiplication(numberInput)";>
+				<h2><div class="buttonTextMultiply">x</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-12 invisible loremInvisible">Lorem</div>
+
+<!-- Fourth Row -->
+
+		<div class="col-xs-1"></div>
+
+		<div class="col-xs-2">
+			<button class="buttonSizeNumbers"">
+				<h2><div class="buttonTextValue">1</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-1"></div>
+
+		<div class="col-xs-2">
+			<button class="buttonSizeNumbers"">
+				<h2><div class="buttonTextValue">2</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-1"></div>
+
+		<div class="col-xs-2">
+			<button class="buttonSizeNumbers"">
+				<h2><div class="buttonTextValue">3</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-1"></div>
+
+		<div class="col-xs-2">
+			<button class="buttonSizeMods" onclick="subtraction(numberInput);">
+				<h2><div class="buttonTextSubtract">-</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-12 invisible loremInvisible">Lorem</div>
+
+<!-- Fifth Row -->
+
+		<div class="col-xs-2">
+			<button class="buttonSizeNumbers"">
+				<h2><div class="buttonTextValue">0</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-1"></div>
+
+		<div class="col-xs-3">
+			<button class="buttonSizeNumbers" onclick="decimal(numberInput);">
+				<h2><div class="buttonTextValue">.</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-3">
+			<button class="buttonSizeNumbers" onclick="addNegative(numberInput);">
+			<h2><div class="buttonTextNegative">&plusmn;</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-3">
+			<button class="buttonSizeMods" onclick="addition(numberInput);">
+				<h2><div class="buttonTextAdd">+</div></h2>
+			</button>
+		</div>
+
+		<div class="col-xs-12 invisible loremInvisible">Lorem</div>
+
+	</div>
+
+	<div class="col-xs-7">
+		
+		<div class="col-xs-1"></div>
+
+		<button onclick="spaceCalculator()" class="calculatorBoxButton4 col-xs-8 col-sm-4 col-md-4 col-lg-3" id="calculatorBox"></button>
+
+		<div class="col-xs-1"></div>
+
+		<button onclick="beachCalculator()" class="calculatorBoxButton5 col-xs-8 col-sm-4 col-md-4 col-lg-3" id="calculatorBox"></button>
+
+		<div class="col-xs-1"></div>
+
+		<button onclick="stormCalculator()" class="calculatorBoxButton6 col-xs-8 col-sm-4 col-md-4 col-lg-3" id="calculatorBox"></button>
+
+	</div>
+
+	<div class="col-xs-1 invisible loremInvisible2">Lorem</div>
+
+	<div class="col-xs-7">
+		
+		<div class="col-xs-1"></div>
+
+		<button onclick="rainCalculator()" class="calculatorBoxButton1 col-xs-8 col-sm-4 col-md-4 col-lg-3" id="calculatorBox"></button>
+
+		<div class="col-xs-1"></div>
+
+		<button onclick="shaqCalculator()" class="calculatorBoxButton2 col-xs-8 col-sm-4 col-md-4 col-lg-3" id="calculatorBox"></button>
+
+		<div class="col-xs-1"></div>
+
+		<button onclick="pizzaCalculator()" class="calculatorBoxButton3 col-xs-8 col-sm-4 col-md-4 col-lg-3" id="calculatorBox"></button>
+
+	</div>
+	
+
+
+
+
+	
+
+	<script src="js/calculator.js"></script>
+
+</body>
+</html>
