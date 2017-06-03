@@ -58,13 +58,14 @@
 		    left: 0px; bottom: 0px;
 		}
 
+
 	</style>
 
 </head>
 <body>
 	
 	<div class="col-xs-12 animationTest">
-		<div class="col-xs-offset-1 col-xs-3">
+		<div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-3">
 
 			
 			<div class="col-xs-12 boxBody">
@@ -80,7 +81,22 @@
 
 		</div>
 
-		<div class="col-xs-offset-1 col-xs-3"></div>
+		<div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-3 svgComputer">
+			<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 357.07 357.07">
+				<circle cx="178.53" cy="178.53" r="176.53" style="fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:4px" class="outerCircle"/>
+				<circle cx="178.81" cy="178.53" r="160.49" style="fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:8px"/>
+				<circle cx="188.34" cy="231.7" r="2.24" style="fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:0.25px"/>
+				<rect x="78.18" y="99.97" width="200.71" height="150.17" style="fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:3px"/>
+				<polygon points="178.23 276.24 158.29 262.89 158.59 236.78 178.84 224.03 198.78 237.38 198.47 263.49 178.23 276.24" style="stroke:#000;stroke-miterlimit:10;stroke-width:3px"/>
+				<rect x="102.28" y="264.68" width="152.5" height="12.68" style="stroke:#000;stroke-miterlimit:10"/>
+				<path d="M361.6,370c-2.81-3.84-9-3.72-10.62,1.22a7.56,7.56,0,0,0,1,6.64,5.75,5.75,0,0,0,2.51,2c1.42,0.6,5.68.61,4.82,3.15l2.95,0.4-0.43-12.61c-0.07-1.93-3.07-1.93-3,0l0.43,12.61a1.51,1.51,0,0,0,2.95.4c1.32-3.91-2.4-5.63-5.46-6.4a3.8,3.8,0,0,1-3-4.66,2.93,2.93,0,0,1,5.31-1.19C360.14,373.08,362.74,371.59,361.6,370Z" transform="translate(-181.82 -142.63)"/>
+				<rect x="78.18" y="213.27" width="200.71" height="36.86" style="stroke:#000;stroke-miterlimit:10"/>
+				<circle cx="169.71" cy="231.7" r="2.24" style="fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:0.25px"/>
+				<circle cx="199.59" cy="231.7" r="2.24" style="fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:0.25px"/>
+				<circle cx="179.15" cy="231.7" r="9.44" style="fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:8px"/>
+				<circle cx="193.96" cy="231.7" r="2.24" style="fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:0.25px"/>
+			</svg>
+		</div>
 	</div>
 
 
@@ -99,6 +115,18 @@
 		$(document).ready(function(){
 
 			"use strict";
+
+			$('.svgComputer').hover(function(){
+				$('.outerCircle').css({
+					fill: "green", 
+					transition: "1.0s"
+				});
+			}, function(){
+				$('.outerCircle').css({
+					fill: "white", 
+					transition: "1.0s"
+				});
+			});
 
 			$('.boxBody').hover(function(){
 
